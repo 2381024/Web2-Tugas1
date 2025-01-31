@@ -18,7 +18,5 @@ function plusMinus(arr: number[]): void {
     console.log((negativeCount / n).toFixed(6));
     console.log((zeroCount / n).toFixed(6));
 }
-
-// Sample input
 const arr = [-4, 3, -9, 0, 4, 1];
 plusMinus(arr);
